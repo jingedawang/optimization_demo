@@ -1,6 +1,22 @@
 # optimization_demo
 A demo to show some optimization methods in C/C++ development.
 
+### Build
+```
+sudo apt install libgoogle-glog-dev
+git clone https://github.com/jingedawang/optimization_demo.git
+cd optimization_demo
+mkdir build
+cd build
+cmake ..
+make
+```
+
+### Usage
+```
+./optimization_demo
+```
+
 ### Methods compared in the demo
 + `trival`: Trival implementation.
 + `trival_bad`: Trival implementation but accumulated on memory variable.
