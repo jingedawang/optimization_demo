@@ -32,12 +32,14 @@ make
 + `final`: Unroll loop by 4, change associativity of addition operation.
 
 ### Performance result
+
 ```
 -----------------------------------------------------------------------------------Time used--------------------------------------------------------------------------------
 -- trival       trival_bad   outofloop    direct_accessunroll_2     unroll_3     unroll_4     auto_unroll  u_2_p_2      u_3_p_3      u_2_reasso   final        Total        
 -- 0.00454631   0.00493059   0.0028528    0.00175893   0.00115604   0.000894822  0.000764099  0.00181297   0.00141279   0.000973887  0.000989889  0.000683308  0.0227764    
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
+Tested on Core i5 7th Gen, Dell laptop.
 
 ### More
 See [《优化程序性能》](https://www.jianshu.com/p/929bd7ebf4c6) for more details.
