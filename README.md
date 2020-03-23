@@ -42,4 +42,4 @@ make
 Tested on Core i5 7th Gen, Dell laptop.
 
 ### More
-See [《优化程序性能》](https://www.jianshu.com/p/929bd7ebf4c6) for more details.
+See [《优化程序性能》](https://zhuanlan.zhihu.com/p/115507378) for more details.
